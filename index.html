@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport">
+  <title></title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+    <script>
+        var html =document.querySelector("html");
+        rem();
+        window.addEventListener("resize",function () {
+           rem()
+        });
+        function rem() {
+            var width =html.getBoundingClientRect().width;
+            html.style.fontSize =width /10 + 'px';
+        }
+    </script>
+</head>
+<body>
+    <div id="main">
+        <!--头部-->
+        <header id="header">
+          <div class="logo"></div>
+          <div class="header-btn"></div>
+        </header>
+        <!--头部 end-->
+
+        <!--banner-->
+        <section id="banner">
+            <ul>
+                <li><a href=""><img src="img/banner1.jpg"  width="640"  height="300" alt=""></a></li>
+                <li><a href=""><img src="" alt=""></a></li>
+                <li><a href=""><img src="" alt=""></a></li>
+                <li><a href=""><img src="" alt=""></a></li>
+                <li><a href=""><img src="" alt=""></a></li>
+            </ul>
+            <p class="dot">
+                <span class="on"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </p>
+        </section>
+        <!--banner end-->
+
+        <!--nav-->
+        <section id="nav">
+            <ul>
+                <li>
+                    <a href=""><img src="img/nav/Java.png"alt=""></a>
+                    <p>Java开发</p>
+                </li>
+                <li>
+                    <a href=""><img src="img/nav/web.png" alt=""></a>
+                    <p>UI/UE设计</p>
+                </li>
+                <li>
+                    <a href=""><img src="img/nav/ui.png" alt=""></a>
+                    <p>web前端</p>
+                </li>
+                <li>
+                    <a href=""><img src="img/nav/quanzhan.png" alt=""></a>
+                    <p>全栈工程师</p>
+                </li>
+                <li>
+                    <a href=""><img src="img/nav/C.png" alt=""></a>
+                    <p>C/C++网络攻防</p>
+
+                </li>
+                <li>
+                    <a href=""><img src="img/nav/dashuju.png" alt=""></a>
+                    <p>云计算大数据</p>
+                </li>
+                <li>
+                    <a href=""><img src="img/nav/Python.png" alt=""></a>
+                    <p>AI+Python</p>
+                </li>
+                <li>
+                    <a href=""><img src="img/nav/apply.png" alt=""></a>
+                    <P>就业薪资</P>
+                </li>
+            </ul>
+            <div class="nav-dot">
+                 <span class="on"></span>
+                 <span></span>
+            </div>
+        </section>
+        <!--nav end-->
+
+        <!--news-->
+        <section id="news">
+            <h1 class="news-h1hover">院校新闻</h1>
+            <h1 class="news-h1">招生动态</h1>
+            <div class="news-content">
+                <div class="news-contenttop">
+                    <div class="news-img"><img src="img/focuspic.jpg" alt=""></div>
+                    <div class="news-r">
+                        <p class="news-p">
+                            <a href="">学生入学到毕业期间可以不用交纳学费，入学签
+                            订协议，先就业后付款，6+18模式，让你学习无忧.
+                            </a>
+                        </p>
+                        <p class="news-date">2018-05-14</p>
+                    </div>
+                    <p class="focuspic-tit">
+                        <a href="">
+                            XXX同学在校期间勤奋努力，获得XXXXX奖项XXX同学在校期间勤奋努力，获得XXXXX奖项。
+                            <em>【查看详情】</em>
+                        </a>
+                    </p>
+                </div>
+                <div class="news-contentdeta">
+                    <ul>
+                        <li><i></i><a href="">快讯！北大青鸟全新高端互动体验平台——青鸟之家开业啦！</a></li>
+                        <li><i></i><a href="">蔡老师讲课富有激情，风趣幽默，浅显易懂，深受学员们的喜爱</a></li>
+                        <li><i></i><a href="">进步的最好方法是学习，坚持学习！</a></li>
+                        <li><i></i><a href="">做一名好老师很难？其实花点“心思”就可以</a></li>
+                        <li><i></i><a href="">讲课富有激情，风趣幽默，浅显易懂，深受学员们的喜爱</a></li>
+                        <li><i></i><a href="">讲课富有激情，风趣幽默，浅显易懂，深受学员们的喜爱</a></li>
+                        <li><i></i><a href="">讲课富有激情，风趣幽默，浅显易懂，深受学员们的喜爱</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="newbtn-box">
+                <p class="news-btn"><a href="">查看更多 >></a></p>
+            </div>
+        </section>
+
+        <!--news end-->
+
+        <!--teacher -->
+        <section id="teacher">
+            <div class="tea-tit">
+                <h2>专业导师</h2>
+                <p>我们注重实操，项目式驱动教学，工作式学习模式，让学员提早适应企业工作模式</p>
+            </div>
+            <div class="teacon">
+                <ul>
+                    <li>
+                        <div class="tea-left fl">
+                            <div class="tea">
+                                <img src="img/tea/tea1.png"  width="191"  height="200" alt="">
+                                <h3>蔡老师</h3>
+                            </div>
+                        </div>
+                        <div class="tea-right fr">
+                            <h3>技术专长</h3>
+                            <p><i></i>3年J2EE开发经验，3年北大青鸟教学经验</p>
+                            <p><i></i>参与开发广州云某网上商城，广东微云科技管理系统</p>
+                            <p><i></i>精通J2EE开发语言，Linux下网络流媒体、GUI等</p>
+                            <p><i></i>今天前端H5 CS3，JavaScript，jQuery，ajax，vue.js</p>
+                            <p><i></i>擅长网页设计及网络配色，精通PS，DW，AI等UI设计 制图软件</p>
+                            <p><i></i>讲课富有激情，风趣幽默，浅显易懂，深受学员们的喜爱</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tea-left fl">
+                            <div class="tea">
+                                <img src="img/tea/tea1.png"  width="191"  height="200" alt="">
+                                <h3>蔡老师</h3>
+                            </div>
+                        </div>
+                        <div class="tea-right fr">
+                            <h3>技术专长</h3>
+                            <p><i></i>3年J2EE开发经验，3年北大青鸟教学经验</p>
+                            <p><i></i>参与开发广州云某网上商城，广东微云科技管理系统</p>
+                            <p><i></i>精通J2EE开发语言，Linux下网络流媒体、GUI等</p>
+                            <p><i></i>今天前端H5 CS3，JavaScript，jQuery，ajax，vue.js</p>
+                            <p><i></i>擅长网页设计及网络配色，精通PS，DW，AI等UI设计 制图软件</p>
+                            <p><i></i>讲课富有激情，风趣幽默，浅显易懂，深受学员们的喜爱</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tea-left fl">
+                            <div class="tea">
+                                <img src="img/tea/tea1.png"  width="191"  height="200" alt="">
+                                <h3>蔡老师</h3>
+                            </div>
+                        </div>
+                        <div class="tea-right fr">
+                            <h3>技术专长</h3>
+                            <p><i></i>3年J2EE开发经验，3年北大青鸟教学经验</p>
+                            <p><i></i>参与开发广州云某网上商城，广东微云科技管理系统</p>
+                            <p><i></i>精通J2EE开发语言，Linux下网络流媒体、GUI等</p>
+                            <p><i></i>今天前端H5 CS3，JavaScript，jQuery，ajax，vue.js</p>
+                            <p><i></i>擅长网页设计及网络配色，精通PS，DW，AI等UI设计 制图软件</p>
+                            <p><i></i>讲课富有激情，风趣幽默，浅显易懂，深受学员们的喜爱</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tea-left fl">
+                            <div class="tea">
+                                <img src="img/tea/tea1.png"  width="191"  height="200" alt="">
+                                <h3>蔡老师</h3>
+                            </div>
+                        </div>
+                        <div class="tea-right fr">
+                            <h3>技术专长</h3>
+                            <p><i></i>3年J2EE开发经验，3年北大青鸟教学经验</p>
+                            <p><i></i>参与开发广州云某网上商城，广东微云科技管理系统</p>
+                            <p><i></i>精通J2EE开发语言，Linux下网络流媒体、GUI等</p>
+                            <p><i></i>今天前端H5 CS3，JavaScript，jQuery，ajax，vue.js</p>
+                            <p><i></i>擅长网页设计及网络配色，精通PS，DW，AI等UI设计 制图软件</p>
+                            <p><i></i>讲课富有激情，风趣幽默，浅显易懂，深受学员们的喜爱</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tea-left fl">
+                            <div class="tea">
+                                <img src="img/tea/tea1.png"  width="191"  height="200" alt="">
+                                <h3>蔡老师</h3>
+                            </div>
+                        </div>
+                        <div class="tea-right fr">
+                            <h3>技术专长</h3>
+                            <p><i></i>3年J2EE开发经验，3年北大青鸟教学经验</p>
+                            <p><i></i>参与开发广州云某网上商城，广东微云科技管理系统</p>
+                            <p><i></i>精通J2EE开发语言，Linux下网络流媒体、GUI等</p>
+                            <p><i></i>今天前端H5 CS3，JavaScript，jQuery，ajax，vue.js</p>
+                            <p><i></i>擅长网页设计及网络配色，精通PS，DW，AI等UI设计 制图软件</p>
+                            <p><i></i>讲课富有激情，风趣幽默，浅显易懂，深受学员们的喜爱</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tea-dot">
+                    <span class="on"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+        <!--teacher end-->
+
+        <!--state-->
+        <section id="state">
+            <nav>
+                <input type="radio" name="a" id="l1" checked>
+                <label for="l1">学员动态</label>
+                <input type="radio" name="a" id="l2">
+                <label for="l2">校园环境</label>
+                <input type="radio" name="a" id="l3">
+                <label for="l3">面试技巧</label>
+                <input type="radio" name="a" id="l4">
+                <label for="l4">面试题目</label>
+                <div class="st1">
+                    <ul>
+                        <li>
+                            <img src="img/focuspic.jpg" alt="">
+                            <div class="st1text">
+                                <p>张三</p>
+                                <p>学历：<em>本科</em></p>
+                                <p>薪资待遇：<em>8000</em></p>
+                                <p>所学专业：<em>Java软件工程师</em></p>
+                                <p>就职公司:<em>广州不知道有限公司</em></p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/focuspic.jpg" alt="">
+                            <div class="st1text">
+                                <p>张三</p>
+                                <p>学历：<em>本科</em></p>
+                                <p>薪资待遇：<em>8000</em></p>
+                                <p>所学专业：<em>Java软件工程师</em></p>
+                                <p>就职公司:<em>广州不知道有限公司</em></p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/focuspic.jpg" alt="">
+                            <div class="st1text">
+                                <p>张三</p>
+                                <p>学历：<em>本科</em></p>
+                                <p>薪资待遇：<em>8000</em></p>
+                                <p>所学专业：<em>Java软件工程师</em></p>
+                                <p>就职公司:<em>广州不知道有限公司</em></p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/focuspic.jpg" alt="">
+                            <div class="st1text">
+                                <p>张三</p>
+                                <p>学历：<em>本科</em></p>
+                                <p>薪资待遇：<em>8000</em></p>
+                                <p>所学专业：<em>Java软件工程师</em></p>
+                                <p>就职公司:<em>广州不知道有限公司</em></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <p class="news-btn"><a href="">查看更多 >></a></p>
+
+            </nav>
+        </section>
+        <!--state end-->
+
+        <!--joinfirm-->
+        <section id="joinfirm">
+            <div class="jointie">
+                <h2>合作企业</h2>
+                <p>为每位学生搭建职业进阶平台，构筑全程化、专业化、个性化的职业生涯辅导体系</p>
+            </div>
+            <div class="joinb">
+                    <div class="jinb-box">
+                        <ul>
+                            <li><img src="img/job/job2.png" alt=""></li>
+                            <li><img src="img/job/job3.jpg" alt=""></li>
+                            <li><img src="img/job/job4.jpg" alt=""></li>
+                            <li><img src="img/job/job5.jpg" alt=""></li>
+                            <li><img src="img/job/job6.jpg" alt=""></li>
+                            <li><img src="img/job/job7.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="jinb-box">
+                        <ul>
+                            <li><img src="img/job/job2.png" alt=""></li>
+                            <li><img src="img/job/job3.jpg" alt=""></li>
+                            <li><img src="img/job/job4.jpg" alt=""></li>
+                            <li><img src="img/job/job5.jpg" alt=""></li>
+                            <li><img src="img/job/job6.jpg" alt=""></li>
+                            <li><img src="img/job/job7.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="jinb-box">
+                    <ul>
+                        <li><img src="img/job/job2.png" alt=""></li>
+                        <li><img src="img/job/job3.jpg" alt=""></li>
+                        <li><img src="img/job/job4.jpg" alt=""></li>
+                        <li><img src="img/job/job5.jpg" alt=""></li>
+                        <li><img src="img/job/job6.jpg" alt=""></li>
+                        <li><img src="img/job/job7.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-dot">
+                <span class="on"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+        <!--joinfirm end-->
+        <!--//tab -->
+        <section id="tab">
+            <div class="tab-tit"><p>申请免费试听!</p></div>
+            <div class="tab-form">
+                <form action="">
+                    <div><em class="em1"></em><input type="text" placeholder="请输入您的姓名" name="age" required></div>
+                    <div><em class="em2"></em><input type="tel" placeholder="请输入您的手机号或座机号码" name="phone" required></div>
+                    <div>
+                        <em class="em3"></em>
+                        <input placeholder="选择课程" list="mlist">
+                        <datalist id="mlist">
+                            <option value="Java大数据">Java大数据</option>
+                            <option value="web前端工程师">web前端工程师</option>
+                            <option value="全栈工程师">全栈工程师</option>
+                            <option value="UI/UE设计师"></option>
+                        </datalist>
+                    </div>
+                    <div><em class="em4"></em><input type="text" placeholder="联系QQ" name="QQ"></div>
+                    <div class="form-sub">
+                        <input type="submit" value="提交申请" id="sub" class="sub">
+                        <input type="submit" value="重置" id="reset" class="reset">
+                    </div>
+                </form>
+            </div>
+
+        </section>
+        <!--tab end-->
+
+        <!--fo0ter-->
+        <section id="footer">
+            <p>客服热线：4006-1122-06</p>
+            <p>学校地址：广州市天河区棠东东路3号御景创意园2楼
+                （现天河区远洋新三版企业孵化基地一期）
+                （BRT天朗明居站旁，地铁车陂站C出口400米）
+            </p>
+            <p>广州北大青鸟投诉建议邮箱：service@xsh-gz.com</p>
+            <p>广州网耀信息科技有限公司 粤ICP备14079494号-1</p>
+        </section>
+    </div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
