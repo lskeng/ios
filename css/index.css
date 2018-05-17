@@ -47,10 +47,12 @@ body {
   margin: 0 0.10666667rem;
 }
 #header {
+  position: fixed;
   width: 750px;
   height: 1rem;
   background: #fff;
   border-bottom: 0.01333333rem solid #de3c4a;
+  z-index: 999;
 }
 #header .logo {
   float: left;
@@ -266,7 +268,7 @@ body {
 }
 #teacher .tea-left .tea h3 {
   margin-top: 0.46666667rem;
-  font-size: 0.48rem;
+  font-size: 16px;
 }
 #teacher .tea-left .tea img {
   width: 3.06666667rem;
@@ -490,7 +492,7 @@ body {
   padding: 0;
   background-color: #de3c4a;
   color: #fff;
-  border: 0.02666667rem solid #fff;
+  border: 0.02666667rem solid #ffffff;
   margin: 0.13333333rem 0.66666667rem;
 }
 #footer {

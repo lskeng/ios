@@ -1,0 +1,287 @@
+#ui {
+  overflow: hidden;
+  max-width: 750px;
+  margin: 0 auto;
+}
+#header {
+  position: fixed;
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  border-bottom: 0.01333333rem solid #de3c4a;
+  z-index: 999;
+}
+#header .logo {
+  float: left;
+  width: 3.96rem;
+  height: 0.66666667rem;
+  background: url("../img/logo.png");
+  background-size: 100% 100%;
+  margin-top: 0.2rem;
+  margin-left: 0.26666667rem;
+}
+#header .header-btn {
+  float: left;
+  width: 0.8rem;
+  height: 0.53333333rem;
+  background: url("../img/btn.png");
+  background-size: 100% 100%;
+  margin-top: 0.26666667rem;
+  margin-left: 4.4rem;
+}
+#banner {
+  position: relative;
+  margin-top: 0.66666667rem;
+}
+#banner img {
+  width: 100%;
+  vertical-align: middle;
+  background-size: 100% 100%;
+}
+#banner span.sp {
+  position: absolute;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  z-index: 9999;
+}
+#banner span.sp1 {
+  top: 4rem;
+  left: 1.33333333rem;
+  background: url("../img/UI/sec1-bg03.png");
+  background-size: 100% 100%;
+}
+#banner span.sp2 {
+  top: 10rem;
+  right: 1.06666667rem;
+  background: url("../img/UI/sec1-bg02.png");
+  background-size: 100% 100%;
+}
+#banner span.sp3 {
+  left: 1.33333333rem;
+  bottom: 1.33333333rem;
+  background: url("../img/UI/sec1-bg01.png");
+  background-size: 100% 100%;
+}
+#box {
+  height: 80rem;
+  background: url("../img/UI/bg1.png");
+  background-size: 100% 100%;
+  color: #e7ecf2;
+  text-align: center;
+}
+#box h2.h2 {
+  font-size: 18px;
+}
+#box .tit i {
+  display: inline-block;
+  float: left;
+  height: 1.46666667rem;
+  width: 1.46666667rem;
+  background: url("../img/title-bg.png");
+  background-size: 100% 100%;
+  animation: titrot 7s linear infinite;
+}
+#box h2.h2 em {
+  color: #04c6f7;
+}
+#box .tit {
+  line-height: 1.46666667rem;
+}
+#box .tit p.p {
+  color: #eaeaea;
+  font-size: 0.26666667rem;
+  line-height: 10px;
+}
+#box .imgtit {
+  width: 5.05333333rem;
+  height: 1.46666667rem;
+  margin: 0.13333333rem auto;
+}
+#box a.subbtn {
+  display: inline-block;
+  font-size: 0.26666667rem;
+  color: #fff;
+  text-align: center;
+  background-color: #F11A4E ;
+  border-radius: 1.5rem;
+  padding: 0.26666667rem 0.66666667rem;
+}
+@keyframes titrot {
+  0% {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes ico {
+  0% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+#trade {
+  margin: 0 0.10666667rem;
+}
+#trade .trade-banner {
+  position: relative;
+  overflow: hidden;
+  max-width: 10rem;
+  height: 6.66666667rem;
+  margin-top: 0.26666667rem;
+}
+#trade .trade-banner ul {
+  width: 30rem;
+}
+#trade .trade-banner ul li {
+  float: left;
+  max-width: 10rem;
+}
+#trade .trade-banner ul li img {
+  width: 4.44rem;
+  height: 4.97333333rem;
+  background-size: 100% 100%;
+}
+#trade .trade-banner ul li p {
+  width: 50%;
+  margin: 0.13333333rem auto;
+  color: #d7c9cb;
+}
+#trade .trade-banner .btn {
+  position: absolute;
+  width: 0.53333333rem;
+  height: 1.06666667rem;
+}
+#trade .trade-banner .btn-left {
+  top: 30%;
+  left: 5%;
+  background: url("../img/UI/btn2.png");
+  background-size: 100% 100%;
+}
+#trade .trade-banner .btn-right {
+  top: 30%;
+  right: 5%;
+  background: url("../img/UI/btn1.png");
+  background-size: 100% 100%;
+}
+#trade .trade-img {
+  margin: 0 auto;
+  background: url("../img/UI/box1tit.png");
+  background-size: 100% 100%;
+}
+#pre {
+  margin: 0.4rem 0.10666667rem;
+}
+#pre .pre-con .preimg-bg {
+  width: 9.46666667rem;
+  height: 4.38666667rem;
+  background: url("../img/UI/com.png");
+  background-size: 100% 100%;
+  margin-top: 0.26666667rem;
+}
+#pre .pre-con .preimg-bg img {
+  width: 4.53333333rem;
+  height: 3.56rem;
+  background-size: 100% 100%;
+  -webkit-animation: ico 2s infinite;
+  -o-animation: ico 2s infinite;
+  animation: ico 2s infinite;
+  -webkit-transition: all 2s ease-in;
+  -moz-transition: all 2s ease-in;
+  -ms-transition: all 2s ease-in;
+  -o-transition: all 2s ease-in;
+  transition: all 2s ease-in;
+}
+#pre .pre-con .preimg-bg .pre-left {
+  float: left;
+}
+#pre .pre-con .preimg-bg .pre-left p {
+  margin: 0.66666667rem auto;
+}
+#pre .pre-con .preimg-bg .pre-right {
+  float: right;
+}
+#pre .pre-con .preimg-bg .pre-right p {
+  margin: 0.66666667rem auto;
+}
+#pre .pre-img {
+  width: 6.8rem;
+  background: url("../img/UI/box2tit.png");
+  background-size: 100% 100%;
+}
+#need {
+  margin: 0.4rem 0.10666667rem;
+}
+#need .need-con {
+  overflow: hidden;
+  width: 95%;
+  margin: 0.53333333rem auto;
+}
+#need .need-con ul li {
+  float: left;
+  width: 47%;
+  background: #4e6ccc87;
+  border-radius: 20px 2px 20px 0;
+}
+#need .need-con ul li h3 {
+  margin-top: 0.26666667rem;
+  font-size: 0.34666667rem;
+  color: #1ff6d5;
+}
+#need .need-con ul li p {
+  font-size: 0.24rem;
+}
+#need .need-con ul li div {
+  margin: 0.93333333rem auto;
+}
+#need .need-con ul li .needlic {
+  text-align: left;
+  margin-top: 0.13333333rem;
+  font-size: 0.29333333rem;
+  margin-left: 1.066667rem;
+  color: #8d8d91;
+}
+#need .need-con .need-i {
+  display: inline-block;
+  width: 0.86666667rem;
+  height: 0.2rem;
+  background: url("../img/UI/box4_icon1.png");
+  background-size: 100% 100%;
+}
+#need .need-con .need-btn {
+  position: unset;
+  margin-top: 0.66666667rem;
+}
+#need .need-con .need-btn span {
+  background-color: #1ff6d5;
+}
+#need .nedd-img {
+  background: url("../img/UI/box3tit.png");
+  background-size: 100% 100%;
+}

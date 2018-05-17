@@ -1,0 +1,312 @@
+@px:750/10rem;
+@color:#de3c4a;
+@fonSzcolor: #e7ecf2;
+
+#ui{
+  overflow: hidden;
+  max-width: 750px;
+  margin: 0 auto;
+}
+#header{
+  position: fixed;
+  width: 100%;
+  height: 75/@px;
+  background: #fff;
+  border-bottom: 1/@px solid @color;
+  z-index: 999;
+}
+#header .logo{
+  float: left;
+  width: 297/@px;
+  height: 50 /@px;
+  background: url("../img/logo.png");
+  background-size: 100% 100%;
+  margin-top: 15/@px;
+  margin-left: 20/@px;
+}
+#header .header-btn{
+  float: left;
+  width: 60/@px ;
+  height: 40/@px;
+  background: url("../img/btn.png");
+  background-size: 100% 100%;
+  margin-top: 20/@px;
+  margin-left: 330/@px;
+}
+
+#banner{
+  position: relative;
+  margin-top: 50/@px;
+}
+#banner img{
+  width: 100%;
+  vertical-align: middle;
+  background-size: 100% 100%;
+}
+#banner span.sp{
+  position: absolute;
+  display: inline-block;
+  width: 150/@px;
+  height: 150/@px;
+  z-index: 9999;
+
+}
+#banner span.sp1{
+  top: 300/@px;
+  left: 100/@px;
+  background: url("../img/UI/sec1-bg03.png");
+  background-size: 100% 100%;
+}
+#banner span.sp2{
+    top: 750/@px;
+    right: 80/@px;
+    background: url("../img/UI/sec1-bg02.png");
+    background-size: 100% 100%
+}
+#banner span.sp3{
+    left: 100/@px;
+    bottom: 100/@px;
+    background: url("../img/UI/sec1-bg01.png");
+    background-size: 100% 100%
+}
+#box{
+  height: 6000/@px;
+  background: url("../img/UI/bg1.png");
+  background-size: 100% 100%;
+  color: @fonSzcolor;
+  text-align: center;
+}
+
+
+//公共样式
+#box h2.h2{
+  font-size: 18px;
+  //line-height: 30px;
+}
+#box .tit i{
+  //position: absolute;
+  display: inline-block;
+  float: left;
+  height: 110/@px;
+  width: 110/@px;
+  background: url("../img/title-bg.png");
+  background-size: 100% 100%;
+  animation: titrot 7s linear infinite;
+}
+#box h2.h2 em{
+  color: #04c6f7;
+}
+#box .tit {
+  line-height: 110/@px;
+}
+#box .tit p.p{
+  color: #eaeaea;
+  font-size: 20/@px;
+  line-height: 10px;
+}
+#box .imgtit{
+  width: 379/@px;
+  height: 110/@px;
+  margin: 10/@px auto;
+}
+#box a.subbtn{
+  display: inline-block;
+  font-size: 20/@px;
+  color: #fff;
+  text-align: center;
+  background-color: #F11A4E ;
+  border-radius: 1.5rem;
+  padding: 20/@px 50/@px;
+}
+
+@keyframes titrot {
+  0%{
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100%{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes ico {
+  0%{
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  50%{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100%{
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transform: scale(.9);
+  }
+}
+
+
+#trade{
+  margin: 0 8/@px;
+
+}
+#trade .trade-banner{
+  position: relative;
+  overflow: hidden;
+  max-width: 750/@px;
+  height: 500/@px;
+  margin-top: 20/@px;
+}
+#trade .trade-banner ul{
+  width: 750*3/@px;
+}
+#trade .trade-banner ul li{
+  float: left;
+  max-width: 750/@px;
+}
+#trade .trade-banner ul li img{
+  width: 333/@px;
+  height: 373/@px;
+  background-size: 100% 100%;
+}
+#trade .trade-banner ul li p{
+  width: 50%;
+  margin: 10/@px auto;
+  color: #d7c9cb;
+}
+#trade .trade-banner .btn{
+  position: absolute;
+  width: 40/@px;
+  height: 80/@px;
+}
+#trade .trade-banner .btn-left{
+  top: 30%;
+  left: 5%;
+  background: url("../img/UI/btn2.png");
+  background-size: 100% 100%;
+}
+#trade .trade-banner .btn-right{
+  top: 30%;
+  right: 5%;
+  background: url("../img/UI/btn1.png");
+  background-size: 100% 100%;
+}
+#trade .trade-img{
+  margin: 0 auto;
+  background: url("../img/UI/box1tit.png");
+  background-size: 100% 100%;
+}
+
+
+#pre{
+  margin: 30/@px 8/@px;
+}
+#pre .pre-con .preimg-bg{
+  width: 710/@px;
+  height: 329/@px;
+  background: url("../img/UI/com.png");
+  background-size: 100% 100%;
+  margin-top: 20/@px;
+}
+#pre .pre-con .preimg-bg img{
+  width: 340/@px;
+  height: 267/@px;
+  background-size: 100% 100%;
+  -webkit-animation: ico 2s infinite;
+  -o-animation: ico 2s infinite;
+  animation: ico 2s infinite;
+  -webkit-transition: all 2s ease-in;
+  -moz-transition: all 2s ease-in;
+  -ms-transition: all 2s ease-in;
+  -o-transition: all 2s ease-in;
+  transition: all 2s ease-in;
+}
+#pre .pre-con .preimg-bg .pre-left{
+  float: left;
+}
+#pre .pre-con .preimg-bg .pre-left p{
+  margin: 50/@px auto;
+}
+#pre .pre-con .preimg-bg .pre-right{
+  float: right;
+}
+#pre .pre-con .preimg-bg .pre-right p{
+  margin: 50/@px auto;
+
+}
+#pre .pre-img{
+  width: 510/@px;
+  background: url("../img/UI/box2tit.png");
+  background-size: 100% 100%;
+}
+
+
+
+
+#need{
+  margin: 30/@px 8/@px;
+}
+#need .need-con{
+  overflow: hidden;
+  width: 95%;
+  margin: 40/@px auto;
+}
+#need .need-con ul li{
+  float: left;
+  width: 47%;
+  background: #4e6ccc87;
+  border-radius: 20px 2px 20px 0;
+}
+#need .need-con ul{
+  //width: 300%;
+}
+#need .need-con ul li h3{
+  margin-top: 20/@px;
+  font-size: 26/@px;
+  color: #1ff6d5;
+}
+#need .need-con ul li p{
+    font-size: 18/@px;
+}
+#need .need-con ul li div{
+  margin: 70/@px auto;
+}
+#need .need-con ul li .needlic{
+  text-align: left;
+  margin-top: 10/@px;
+  font-size: 22/@px;
+  margin-left: 1.066667rem;
+  color: #8d8d91;
+}
+#need .need-con .need-i{
+  display: inline-block;
+  width: 65/@px;
+  height: 15/@px;
+  background: url("../img/UI/box4_icon1.png");
+  background-size: 100% 100%;
+}
+#need .need-con .need-btn{
+  position: unset;
+  margin-top: 50/@px;
+}
+#need .need-con .need-btn span{
+  background-color: #1ff6d5;
+}
+#need .nedd-img{
+  background: url("../img/UI/box3tit.png");
+  background-size: 100% 100%;
+}
